@@ -1,0 +1,11 @@
+.card_image{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.grid_container .row .col-md-3{
+    padding: 15px !important;
+}
+.card_col{
+    padding: 1rem !important;
+}

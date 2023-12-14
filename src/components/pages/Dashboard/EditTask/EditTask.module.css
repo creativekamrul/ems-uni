@@ -1,0 +1,28 @@
+.add_task_container{
+    padding: 40px;
+    width: 60%;
+}
+.main_add_task_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.single_input_box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.single_input_box input, .single_input_box select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0D1437;
+    border-radius: 6px;
+}
+.single_input_box input[type="submit"]{
+    border: none;
+    background: #0D1437;
+    color: #ffffff;
+}

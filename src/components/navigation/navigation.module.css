@@ -1,0 +1,31 @@
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Nunito";
+    color: #FA878A;
+}
+.container{
+    padding: 10% 15%;
+    background-color: #0D1437;
+    height: 100vh;
+    position: relative;
+}
+.menu{
+    margin-top: 35%;
+}
+.menu ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+.menu ul li a{
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 0px;
+    display: block;
+}
+.menu ul li a:hover{
+    color: #f35213;
+}

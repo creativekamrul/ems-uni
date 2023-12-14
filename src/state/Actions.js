@@ -1,0 +1,4 @@
+export const SIGN_IN = "SIGN_IN"
+export const USER_SET = "USER_SET"
+export const GET_COMPANY_EMPLOYEES = "GET_COMPANY_EMPLOYEES"
+export const SET_USER_TASKS = "SET_USER_TASKS"

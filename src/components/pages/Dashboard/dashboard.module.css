@@ -1,0 +1,118 @@
+.top_part h1{
+    font-size: 35px;
+}
+.top_part a{
+    color: #ffffff !important;
+    text-decoration: none;
+
+}
+.dashboard_main_container{
+    padding: 20px;
+}
+.filter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+.employe_filter {
+    flex: 0 0 20%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.employe_filter label, .second_filter label{
+    font-size: 18px;
+}
+.second_filter {
+    flex: 0 0 20%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.main_task_list{
+    margin-top: 30px;
+}
+.main_task_list h3{
+    margin-bottom: 15px;
+}
+.single_task_box{
+    background: #096ce5;
+    margin: 20px 0px;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
+}
+.single_task_box:hover{
+    background: #3188ef;
+    transition: all ease-in 0.1s;
+}
+.single_task_box h2{
+    font-size: 18px;
+    margin: 0px;
+}
+.single_task_box a, .single_task_box a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.closed_tasks .single_task_box{
+    background: #00ac1f;
+}
+.closed_tasks .single_task_box:hover{
+    background: #07c62a;
+    transition: all ease-in 0.1s;
+}
+.single_task_page_container .single_page_header{
+    padding: 25px 20px;
+    border-radius: 6px;
+}
+.single_page_header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.single_page_header h3{
+    color: #ffffff;
+    margin: 0px !important;
+    font-size: 25px;
+    flex: 0 0 70%;
+}
+.task_controlls{
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.task_controlls button a{
+    color: #000000 !important;
+    text-decoration: none;
+}
+.task_controlls button {
+    margin: 0px 10px;
+}
+.single_page_content{
+    padding: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin-top: 20px;
+
+}
+.single_page_content a{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.task_content_controls form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
+    margin-left: auto;
+    margin-top: 30px;
+}
+.task_content_controls form label{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
